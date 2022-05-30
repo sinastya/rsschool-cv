@@ -51,7 +51,7 @@ alert(message);
 
 ## Education:
 
-- University: [Lomonosov Moscow State University](https://www.msu.ru/index.php), Geological faculty, department of Geophysics
+- University: [Lomonosov Moscow State University](https://www.msu.ru/info/struct/dep/geol.html), Geological faculty, department of Geophysics
 - Courses:
   - [RS Schools Course «JavaScript/Front-end. Stage 0»](https://github.com/rolling-scopes-school/tasks/tree/master/stage0) (in progress)
   - [HTML/CSS](https://stepik.org/course/82108/syllabus) (in progress)
