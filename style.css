@@ -1,3 +1,150 @@
 * {
    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Montserrat', sans-serif;
+   min-height: 100vh;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
+   background-color: rgb(237, 237, 237);
+}
+.container {
+   min-width: 900px;
+   max-width: 1100px;
+   margin: 0 auto;
+}
+.header {
+   background-color: rgb(0, 0, 75);
+}
+.main {
+   background-color: white;
+}
+.footer {
+   background-color: rgb(0, 0, 75);
+   color: white;
+   padding: 10px;
+}
+
+.nav-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   padding: 0 20px;
+   line-height: 70px;
+}
+.nav-link {
+   padding: 10px;
+   font-size: 18px;
+   color:black;
+   text-decoration: none;
+   /* transition: .1s; */
+   color: white;
+}
+.nav-link:hover {
+   background: rgb(193, 236, 239);
+   color: rgb(0, 0, 75);
+   font-weight: 900;
+   text-decoration: none;
+   border: none;
+   border-radius: 10px;
+}
+
+.main-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.left-column {
+   background-color: rgb(193, 236, 239);
+   width: 850px;
+   padding: 20px 40px;
+}
+.main-column {
+   padding: 50px;
+
+}
+.section {
+   padding: 20px 0;
+}
+.photo {
+   text-align: center;
+}
+
+@media (max-width: 600px) {
+   .section {
+      width: 100%;
+   }
+}
+.section-title {
+   font-size: 20px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 5px;
+   line-height: 4;
+}
+.h1 {
+   font-size: 40px;
+   letter-spacing: 0px;
+   font-weight: 900;
+   line-height: 2;
+}
+.link {
+   color:black;
+   text-decoration: none;
+}
+.link:hover {
+   color:rgb(0, 0, 75);
+   font-weight: 900;
+}
+.contact-item {
+   list-style-type: none;
+   line-height: 1.8;
+}
+.section li:not(.contact-item) {
+   line-height: 1.8;
+   margin-left: 20px;
+}
+.code {
+   font-family: courier;
+   font-size: 12pt;
+   /* margin: 1px; */
+   background-color: rgb(27, 27, 27);
+   color: white;
+}
+
+.footer-link {
+   color: white;
+   text-decoration: none;
+}
+.footer-link:hover {
+   font-weight: 900;
+   color:rgb(193, 236, 239);
+}
+.github {
+   position: relative;
+   top: 8px;;
+}
+.rsschool {
+   position: relative;
+   top:10px;
+}
+.rsschool:hover {
+   transform: scale(1.1, 1.1);
+}
+
+.ef {
+   position: relative;
+   top:5px;
+   left: 5px;
+}
+.ef:hover {
+   transform: scale(1.15, 1.15);
 }
