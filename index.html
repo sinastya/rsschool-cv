@@ -180,21 +180,17 @@
               <!-- <code> -->
               <pre class="code">
 
-    let message;
-    let year = prompt ('What year were you born?', 2000);
-    if (+year != year) {
+  let message;
+  let year = prompt ('What year were you born?', 2000);
+  if (+year != year) {
       message = "Not a number";
-    } else if (year % 4!= 0) {
-      message = "Regular year";
-    } else if (year % 100 != 0) {
-      message = "Leap year";
-    } else if (year % 400 == 0) {
+    } else if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
       message = "Leap year";
     } else {
       message = "Regular year";
     }
-      </pre
-              >
+  alert (message);
+              </pre>
               <!-- </code> -->
             </section>
           </div>
